@@ -26,10 +26,10 @@ O dashboard responde a perguntas-chave de negócio:
 
 Para executar a aplicação na sua máquina, siga os passos abaixo:
 
-1.  **Clone o repositório:**
-    ```bash
-    git clone [https://github.com/Gustavox0207/projeto-ods-carbono-energia.git](https://github.com/Gustavox0207/projeto-ods-carbono-energia.git) 
-    ```
+1. Clone o repositório:
+   ```bash
+   git clone [https://github.com/Gustavox0207/projeto-ods-carbono-energia.git](https://github.com/Gustavox0207/projeto-ods-carbono-energia.git)
+   ```
 2.  **Navegue até o diretório:**
     ```bash
     cd projeto-ods-carbono-energia
