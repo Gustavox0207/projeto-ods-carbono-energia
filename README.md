@@ -28,7 +28,7 @@ Para executar a aplicação na sua máquina, siga os passos abaixo:
 
 1. Clone o repositório:
    ```bash
-   git clone [https://github.com/Gustavox0207/projeto-ods-carbono-energia.git](https://github.com/Gustavox0207/projeto-ods-carbono-energia.git)
+   git clone https://github.com/Gustavox0207/projeto-ods-carbono-energia.git
    ```
 2.  **Navegue até o diretório:**
     ```bash
