@@ -2,7 +2,7 @@
 
 ## 📝 Descrição do Projeto
 
-Este projeto é uma aplicação web interativa desenvolvida para analisar o progresso global em relação aos Objetivos de Desenvolvimento Sustentável (ODS) 7 (Energia Limpa) e ODS 13 (Ação Climática). Utilizando dados da Our World in Data (OWID), o dashboard permite explorar a relação entre o consumo de energia per capita e as emissões de CO2, destacando a eficiência de carbono por país.
+Este projeto é uma aplicação web interativa desenvolvida para analisar o progresso global em relação aos Objetivos de Desenvolvimento Sustentável (ODS) 7 (Energia Limpa) e ODS 13 (Ação Climática). Utilizando os dados CO2 and Greenhouse Gas Emissions fornecido pela Our World in Data (OWID), o dashboard permite explorar a relação entre o consumo de energia per capita e as emissões de CO2, destacando a eficiência de carbono por país.
 
 ## 🚀 Como Acessar
 
