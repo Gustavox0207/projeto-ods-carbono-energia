@@ -57,7 +57,7 @@ paises_disponiveis = sorted(df['country'].unique().tolist())
 paises_selecionados = st.sidebar.multiselect(
     "Selecione Países:",
     options=paises_disponiveis,
-    default=['Brazil', 'United States', 'China', 'Germany']
+    default=['Brazil', 'United States', 'China', 'Germany', 'Russia']
 )
 
 # Filtro de Ano
