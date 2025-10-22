@@ -137,4 +137,4 @@ df_progresso, ano_inicio, ano_fim = calcular_progresso(df)
 
 st.markdown(f"**Top 10 Países que Mais Reduziram a Intensidade de Carbono ({ano_inicio} a {ano_fim}):**")
 st.dataframe(df_progresso.head(10), use_container_width=True)
-st.markdown(f"*(Valores negativos indicam redução da Intensidade de Carbono, o que é um progresso positivo para o ODS 7/13.)*")
+st.markdown(f"*(Valores positivos indicam redução da Intensidade de Carbono, o que é um progresso positivo para o ODS 7/13.)*")
