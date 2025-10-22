@@ -18,7 +18,7 @@ def load_data():
     df.dropna(subset=['energy_per_capita', 'co2_per_capita'], inplace=True)
 
     # Intensidade de Carbono da Energia
-    df['co2_intensity'] = df['co2_per_capita'] / df['energy_per_capita'] * 1000
+    df['co2_intensity'] = df['co2_per_capita'] / df['energy_per_capita'] * 1000 # kg de CO₂ por kWh
 
     return df
 
@@ -36,10 +36,10 @@ def calcular_progresso(df, ano_inicio=2000):
     ).dropna()
 
     df_pivot['Progresso (%)'] = (
-        (df_pivot[ano_fim] - df_pivot[ano_inicio]) / df_pivot[ano_inicio]
+        (df_pivot[ano_inicio] - df_pivot[ano_fim]) / df_pivot[ano_inicio]
     ) * 100
 
-    df_resultados = df_pivot.sort_values(by='Progresso (%)', ascending=True)
+    df_resultados = df_pivot.sort_values(by='Progresso (%)', ascending=False)
 
     return df_resultados[['Progresso (%)']].round(2), ano_inicio, ano_fim
 
@@ -99,7 +99,7 @@ if not df_ano.empty:
 # VISUALIZAÇÕES E TABELAS
 # VISUALIZAÇÃO 1: Tendência Anual
 st.subheader(f"1. Evolução da Intensidade de Carbono (1990 - {ano_max})")
-st.markdown("*(CO2 per capita por unidade de energia consumida)*")
+st.markdown("*(Kg de CO2 per capita por unidade de energia consumida)*")
 if not df_filtrado.empty:
     fig1 = px.line(
         df_filtrado,
